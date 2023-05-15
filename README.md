@@ -18,8 +18,10 @@ Hi there! My name is Khaled. I'm a Software developer from Egypt. I'm always loo
 #### AI & Machine Learning
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) 
 
-### Contact
+### GitHub Stats
+![stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=khaled5321)
 
+### Contact
 If you'd like to get in touch with me, you can reach me at [khaledemad656@gmail.com](mailto:khaledemad656@gmail.com) or connect with me on [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/khaledemad/)
 &nbsp;
 

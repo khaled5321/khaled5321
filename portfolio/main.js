@@ -1,6 +1,9 @@
 const body = document.body;
 const scrollBtn = document.querySelector('#scrollBTN');
 const menuBtn = document.querySelector('#mobile_menu');
+const menu_about = document.querySelector('#menu_about');
+const menu_projects = document.querySelector('#menu_projects');
+const menu_contact = document.querySelector('#menu_contact');
 const menu = document.querySelector('#mobile_dropdown');
 const form = document.getElementById("contact_form");
 const url = "https://portfolio-emailbackend.vercel.app/send"
@@ -69,7 +72,9 @@ async function handleSubmit(e) {
 form.addEventListener('submit', handleSubmit);
 
 menuBtn.addEventListener('click', toggleMenu);
-
+menu_about.addEventListener('click', toggleMenu);
+menu_projects.addEventListener('click', toggleMenu);
+menu_contact.addEventListener('click', toggleMenu);
 scrollBtn.addEventListener('click', returnToTop);
 
 window.onscroll = () => { pageScroll() };

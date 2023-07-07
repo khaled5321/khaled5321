@@ -6,15 +6,6 @@ const form = document.getElementById("contact_form");
 const url = "https://portfolio-emailbackend.vercel.app/send"
 
 
-form.addEventListener('submit', handleSubmit);
-
-menuBtn.addEventListener('click', toggleMenu);
-
-scrollBtn.addEventListener('click', returnToTop);
-
-window.onscroll = () => { pageScroll() };
-
-
 function toggleMenu() {
     menu.classList.toggle('hidden');
     menu.classList.toggle('flex');
@@ -22,7 +13,6 @@ function toggleMenu() {
     menuBtn.classList.toggle('open');
     body.classList.toggle('no-scroll');
 }
-
 
 function returnToTop() {
     document.body.scrollTop = 0; // For Safari
@@ -74,3 +64,12 @@ async function handleSubmit(e) {
     }
 
 }
+
+
+form.addEventListener('submit', handleSubmit);
+
+menuBtn.addEventListener('click', toggleMenu);
+
+scrollBtn.addEventListener('click', returnToTop);
+
+window.onscroll = () => { pageScroll() };

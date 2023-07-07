@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/index.css">
+
+  <title>Khaled Emad</title>
+</head>
+
+<body class="font-mono w-full">
+  <header id='nav' class="flex bg-transparent text-lg">
+    <nav class="container flex mx-auto items-center justify-between p-5">
+
+      <div class="flex justify-center items-center gap-2">
+        <div class="w-11 h-11 clipped">
+          <img src="/logo.jpg">
+        </div>
+        <h1 class="font-semibold drop-shadow font-sans text-white">Khaled Emad</h1>
+      </div>
+
+      <div class="hidden md:flex gap-7 md:mr-[.9375rem] lg:mr-[1.5625rem] font-semibold text-white">
+        <a href="#about" class="hover:text-indigo-200 transition-colors">About</a>
+        <a href="#projects_section" class="hover:text-indigo-200 transition-colors">Projects</a>
+      </div>
+
+      <div id="mobile_menu" role="button"
+        class="z-30 md:hidden mr-4 ml-auto flex flex-col justify-center gap-[.5rem] cursor-pointer">
+        <span class="inline-block w-8 h-[2px] transition-all bg-white rounded"></span>
+        <span class="inline-block w-8 h-[2px] transition-all bg-white rounded"></span>
+        <span class="inline-block w-8 h-[2px] transition-all bg-white rounded"></span>
+      </div>
+
+      <a href='#contact_section' class="hidden md:block p-2 rounded shadow bg-white">Contact Me</a>
+    </nav>
+
+    <div id="mobile_dropdown"
+      class="hidden z-20 absolute w-full h-screen flex-col justify-center items-center shadow transition-all text-1xl">
+      <div id="overlay" class="absolute w-full h-full bg-black opacity-20"></div>
+
+      <div class="w-fit z-20 flex flex-col gap-7 p-12 items-center rounded bg-white">
+        <a href="#about" onclick="toggleMenu()" class="hover:text-indigo-600 transition-colors">
+          About
+        </a>
+        <a href="#projects_section" onclick="toggleMenu()" class="hover:text-indigo-600 transition-colors">
+          Projects
+        </a>
+        <a href='#contact_section' onclick="toggleMenu()" class="bg-indigo-600 p-2 rounded shadow text-white">
+          Contact Me
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="text-gray-900">
+    <section id="hero_section" class="hero-bg pt-40 mt-[-90px] pb-24 px-5">
+      <h3 class="text-neutral-200 text-2xl sm:text-3xl text-center font-bold font-sans drop-shadow">
+        HI, I AM
+      </h3>
+      <h1
+        class="text-white text-4xl sm:text-5xl md:text-6xl pt-10 text-center font-bold font-sans drop-shadow tracking-wider">
+        KHALED EMAD
+      </h1>
+      <p
+        class="text-gray-50 md:text-lg max-w-[32rem] mx-auto pt-8 font-semibold text-center font-serif tracking-wider drop-shadow">
+        <!-- A software engineer specialized in backend development using Django -->
+        A software engineer specialized in Full-stack web development
+      </p>
+      <h2 class="text-white pt-12 text-center text-3xl">Get In Touch</h2>
+
+      <div class="flex mx-auto items-center justify-center gap-2 pt-4">
+        <a href="https://www.linkedin.com/in/khaledemad/">
+          <img class="shadow-lg rounded"
+            src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">
+        </a>
+        <a href="https://github.com/khaled5321">
+          <img class="shadow-lg rounded"
+            src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
+        </a>
+      </div>
+    </section>
+
+    <section id="about_section" class="py-24 bg-slate-50">
+      <div class="flex flex-col items-center justify-center gap-2">
+        <h1 id="about" class="pt-6 text-center text-4xl font-bold">ABOUT ME</h1>
+        <div class="bg-indigo-600 h-1 w-12 rounded"></div>
+      </div>
+
+      <div class="container flex flex-col gap-12 mx-auto px-5 pt-16 pb-6 md:flex-row">
+        <div class="flex flex-col gap-7">
+          <h2 class="text-3xl font-bold">Get to know me!</h2>
+          <p class="md:text-lg text-gray-700 max-w-lg font-semibold">
+            I'm a Junior Software Engineer with a focus on backend development using Django.
+          </p>
+          <p class="md:text-lg text-gray-700 max-w-lg font-semibold">
+            With a strong foundation in Python and RESTful API design, I'm dedicated to creating efficient and scalable
+            software solutions.
+          </p>
+          <p class="md:text-lg text-gray-700 max-w-lg font-semibold">
+            I'm also proficient in frontend development using Vue.js
+          </p>
+          <div class="flex gap-3">
+            <a href='#contact_section' class="p-2 rounded w-fit shadow bg-indigo-600 text-white md:p-3 text-lg">
+              Contact Me
+            </a>
+            <a href='/Khaled Emad.pdf' target="_blank"
+              class="p-2 rounded w-fit shadow bg-slate-950 text-white md:p-3 text-lg">
+              🧾Resume
+            </a>
+
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-7">
+          <h2 class="text-3xl font-bold">My Skills</h2>
+          <div id="skills" class="flex flex-col">
+            <h2 class="font-bold text-lg">Programming Languages</h2>
+            <div class="flex gap-2 pt-3">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+            </div>
+
+            <h2 class="font-bold text-lg pt-4">Backend</h2>
+            <div class="flex gap-2 pt-3 flex-wrap">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/docker-%23314192.svg?style=for-the-badge&logo=docker&logoColor=white">
+            </div>
+
+            <h2 class="font-bold text-lg pt-4">Frontend</h2>
+            <div class="flex gap-2 pt-3 flex-wrap">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/tailwind-%23563D7C.svg?style=for-the-badge&logo=tailwindcss&logoColor=white">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D">
+            </div>
+
+            <h2 class="font-bold text-lg pt-4">AI & Machine Learning</h2>
+            <div class="flex gap-2 pt-3 flex-wrap pb-4">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
+              <img class="shadow-lg rounded"
+                src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects_section" class="pb-24 bg-slate-50">
+      <div class="flex flex-col items-center justify-center gap-2">
+        <h1 class="pt-6 text-center text-4xl font-bold">PROJECTS</h1>
+        <div class="bg-indigo-600 h-1 rounded w-12"></div>
+      </div>
+
+      <div class="container mx-auto px-8 items-center justify-center flex flex-col lg:flex-row flex-wrap gap-12 pt-16">
+        <div id="project_card_asag" class="project-card">
+          <a href="https://github.com/khaled5321/ASAG" target="_blank">
+            <img src="asag.png" alt="ASAG" class="project-img">
+            <div class="card-overlay">
+              Automatic Short Answer Grading
+            </div>
+          </a>
+        </div>
+
+        <div id="project_card_blog" class="project-card">
+          <a href="https://github.com/khaled5321/Group_01_Django_Blog" target="_blank">
+            <img src="blog.png" alt="Blog website" class="project-img">
+            <div class="card-overlay">
+              Blog Website
+            </div>
+          </a>
+        </div>
+
+        <div id="project_card_weather" class="project-card">
+          <a href="https://github.com/khaled5321/WeatherApp" target="_blank">
+            <img src="weather.png" alt="weather app" class="project-img">
+            <div class="card-overlay">
+              Weather App
+            </div>
+          </a>
+        </div>
+
+        <div id="project_card_taskflow" class="project-card">
+          <a href="https://github.com/khaled5321/Taskflow" target="_blank">
+            <img src="taskflow.png" alt="todo app" class="project-img">
+            <div class="card-overlay">
+              TaskFlow
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact_section" class="py-24 bg-indigo-100">
+      <div class="flex flex-col items-center justify-center gap-2">
+        <h1 class="pt-6 text-center text-4xl font-bold">CONTACT ME</h1>
+        <div class="bg-indigo-600 h-1 rounded w-12"></div>
+      </div>
+
+      <div class="flex justify-center items-center pt-16">
+        <div class="bg-white shadow-lg p-6 rounded">
+          <form class="flex flex-col justify-center gap-5 text-lg" id="contact_form">
+            <label>
+              Name
+              <input type="text" placeholder="Name..." name="name" required>
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="Email..." name="email" required>
+            </label>
+            <label>
+              Subject
+              <input type="text" placeholder="Subject..." name="subject" required>
+            </label>
+            <label>
+              Content
+              <textarea class="resize-none h-32" required name="content" placeholder="Content..."></textarea>
+            </label>
+            <button type="submit" class="rounded bg-slate-950 px-6 py-2 text-white font-bold">
+              Send Email
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <button onclick="returnToTop()" id="scrollBTN"
+      class="fixed hidden rounded-[50%] h-14 w-14 bg-red-700 text-center right-6 bottom-6 text-white text-4xl"
+      title="Go to top">
+      ⬆
+    </button>
+
+  </main>
+
+  <footer class='bg-slate-950'>
+    <div class="container text-white mx-auto flex flex-col md:flex-row gap-4 items-center justify-between p-5">
+      <p>Copyright © 2023</p>
+      <div class="hidden w-10 h-10 clipped">
+        <img src="/logo.jpg">
+      </div>
+      <p class="flex items-center"><span class="hidden md:inline-block text-xl mr-1">✉</span>khaledemad656@gmail.com
+      </p>
+    </div>
+  </footer>
+
+  <script src="/src/main.js"></script>
+</body>
+
+</html>

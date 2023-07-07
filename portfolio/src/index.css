@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clipped {
+  clip-path: circle();
+}
+
+.project-card {
+  @apply relative w-full sm:w-3/4  lg:w-[47%] rounded shadow-lg;
+}
+
+.card-overlay {
+  @apply absolute bottom-0 p-3 text-lg font-bold bg-black bg-opacity-50 text-center text-white w-full;
+}
+
+.project-img {
+  @apply w-full h-auto max-h-72;
+}
+
+
+label {
+  @apply flex flex-col gap-2 text-indigo-950;
+}
+
+
+input,
+textarea {
+  @apply rounded outline-[none] py-1 text-xl px-2 focus:outline-none w-[70vw] sm:w-[22rem] md:w-[28rem] lg:w-[32rem] text-indigo-600 border-[2px] border-black;
+}
+
+.hero-bg {
+  /* background: linear-gradient(45deg, transparent 49%, #f1f1f1 49% 51%, transparent 51%) , linear-gradient(-45deg, transparent 49%, #f1f1f1 49% 51%, transparent 51%); */
+  background: url(/blurry2.svg);
+  background-size: cover;
+  /* background-size: 1em 1em; */
+  /* background-color: rgba(79 ,70 ,229, 0.3); */
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    /* scale: 0; */
+    visibility: hidden;
+    transform: translateZ(-10px);
+  }
+
+  to {
+    opacity: 1;
+    /* scale:1; */
+    visibility: visible;
+    transform: translateZ(0);
+  }
+}
+
+.dropdown {
+  animation: fade 0.3s linear forwards;
+}
+
+.open>span:first-child {
+  /* transform: translate(50%, 50%) rotate(90deg); */
+  transform: rotate(45deg) translate(9px, 5px);
+}
+
+.open>span:nth-child(2) {
+  opacity: 0;
+}
+
+.open>span:last-child {
+  transform: rotate(-45deg) translate(9px, -5px);
+}
+
+.no-scroll {
+  overflow: hidden;
+}

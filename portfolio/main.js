@@ -6,11 +6,11 @@ const form = document.getElementById("contact_form");
 const url = "https://portfolio-emailbackend.vercel.app/send"
 
 
-menuBtn.addEventListener('click', () => {
-    toggleMenu();
-})
-
 form.addEventListener('submit', handleSubmit);
+
+menuBtn.addEventListener('click', toggleMenu);
+
+scrollBtn.addEventListener('click', returnToTop);
 
 window.onscroll = () => { pageScroll() };
 
@@ -22,6 +22,7 @@ function toggleMenu() {
     menuBtn.classList.toggle('open');
     body.classList.toggle('no-scroll');
 }
+
 
 function returnToTop() {
     document.body.scrollTop = 0; // For Safari

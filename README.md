@@ -24,7 +24,7 @@ My portfolio: https://khaled5321.vercel.app/
 ![stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=khaled5321)
 
 ### Contact
-If you'd like to get in touch with me, you can reach me at [khaledemad656@gmail.com](mailto:khaledemad656@gmail.com) or connect with me on [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/khaledemad/)
+If you'd like to get in touch with me, you can reach me at [khaledemad656@gmail.com](mailto:khaledemad656@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/khaledemad/)
 &nbsp;
 
 Thanks for visiting my profile!

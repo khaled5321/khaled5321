@@ -15,9 +15,6 @@ Hi there! My name is Khaled. I'm a Backend Developer with a strong focus on deve
 #### Tools/Platforms
 ![Postgres](https://img.shields.io/badge/postgres-%23116192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![redis](https://img.shields.io/badge/redis-%23FF4438.svg?style=for-the-badge&logo=redis&logoColor=white) ![linux](https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black) ![EC2](https://img.shields.io/badge/EC2-%23FF9900.svg?style=for-the-badge&logo=amazonec2&logoColor=white) ![RDS](https://img.shields.io/badge/RDS-%23323330.svg?style=for-the-badge&logo=amazonrds&logoColor=white) ![CircleCI](https://img.shields.io/badge/CicleCI-%23343434.svg?style=for-the-badge&logo=circleci&logoColor=white) ![elasticsearch](https://img.shields.io/badge/elasticsearch-%23005571.svg?style=for-the-badge&logo=elasticsearch&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-### GitHub Stats
-![stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=khaled5321)
-
 ### Contact
 Feel free to reach out to me at [khaledemad656@gmail.com](mailto:khaledemad656@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/khaledemad/)
 &nbsp;

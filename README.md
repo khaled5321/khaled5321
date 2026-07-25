@@ -2,7 +2,9 @@
 
 ### About Me
 
-Hi there! My name is Khaled. I'm a Backend Developer with a strong focus on developing scalable and secure APIs. I have a solid foundation in Python and extensive experience with frameworks like Django.
+Hi, I'm Khaled, a Senior Software Engineer specializing in backend systems built with Python and Django.
+
+I design and build scalable, secure, and reliable services, from API design and database optimization to cloud infrastructure and production operations. My experience includes payment systems, microservices, performance optimization, and security, with a focus on building software that's maintainable and resilient.
 
 ### Skills
 
